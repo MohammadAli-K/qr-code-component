@@ -19,14 +19,6 @@ body {
   background: #d5e1ef;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 .card {
   width: 320px;
   background: #fff;
@@ -34,7 +26,6 @@ body {
   border-radius: 20px;
   text-align: center;
   padding: 16px;
-
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -51,10 +42,21 @@ body {
   font-size: 1.4rem;
   margin-bottom: 16px;
   color: #1f314f;
+  line-height: 120%;
 }
 
 .card__description {
   font-size: 1rem;
   margin-bottom: 40px;
   color: #68778d;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
